@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Base Rate - Members</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f7f7f5; --fg: #1a1a1a; --muted: #6b6b6b; --card: #ffffff;
+    --border: #e3e3e0; --pos: #1a7f37; --neg: #cf222e; --accent: #2f6feb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#15161a; --fg:#e8e8e6; --muted:#9a9a9a; --card:#1e2025; --border:#2c2e33; --pos:#3fb950; --neg:#f85149; --accent:#58a6ff; }
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--bg); color: var(--fg); font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; margin:0; padding: 0 20px 80px; }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  header { text-align: center; padding: 48px 0 20px; }
+  .masthead { font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }
+  h1 { font-size: 24px; margin: 0 0 10px; }
+  .subhead { color: var(--muted); font-size: 14px; max-width: 520px; margin: 0 auto; line-height: 1.5; }
+  .notice { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 18px; font-size: 13px; color: var(--muted); max-width: 520px; margin: 20px auto 0; text-align: center; }
+  table.full { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 32px; }
+  table.full th, table.full td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--border); }
+  table.full th { color: var(--muted); font-weight: 500; }
+  table.full { display: block; overflow-x: auto; white-space: nowrap; }
+  .mono { font-family: ui-monospace, monospace; font-size: 12px; }
+  .pos { color: var(--pos); font-weight: 600; }
+  .neg { color: var(--neg); }
+  .muted { color: var(--muted); font-size: 12px; line-height: 1.6; margin-top: 24px; }
+  footer { text-align: center; color: var(--muted); font-size: 11px; line-height: 1.6; margin-top: 48px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="masthead">Base Rate</div>
+    <h1>You're in - here's the full leaderboard.</h1>
+    <p class="subhead">Updated automatically every night. Bookmark this page to check back.</p>
+    <div class="notice">This link is unique to you - please don't share it publicly.</div>
+  </header>
+
+  
+    <table class="full">
+      <tr>
+        <th>wallet</th><th>quote</th><th>closed</th><th>return</th>
+        <th>win%</th><th>payoff</th><th>hold(m)</th><th>beat SOL</th>
+      </tr>
+      <tr><td class="mono">AQAzjsfSmNEyTtDAu41TasVViErfgji55iMJJ2pJcV8m</td><td>SOL</td><td>24</td><td class="pos">+313.0%</td><td>46%</td><td>2.08</td><td>17</td><td class="pos">yes</td></tr><tr><td class="mono">8Fxc1gYmuR1fvQsnCXHnFCmimNpUZ4r5gopuVoM1pjvg</td><td>SOL</td><td>12</td><td class="pos">+300.9%</td><td>92%</td><td>23.51</td><td>8</td><td class="pos">yes</td></tr><tr><td class="mono">EAx32TR3Rk2ukgm9B7eTcxQTKbBhtVwrzpMBqd4Ep7fy</td><td>SOL</td><td>62</td><td class="pos">+288.4%</td><td>26%</td><td>3.60</td><td>370</td><td class="pos">yes</td></tr><tr><td class="mono">s1VznDboK7TsW94gK7az6N4bY3wNF3b2Ty7VUxUWfnQ</td><td>USDT</td><td>10</td><td class="pos">+245.0%</td><td>100%</td><td>—</td><td>1410</td><td class="pos">yes</td></tr><tr><td class="mono">4YVsPYix3QyW9qRAQ9WKiPW3kDe1upgv6BVr2NUrLp26</td><td>SOL</td><td>24</td><td class="pos">+189.5%</td><td>4%</td><td>0.00</td><td>15</td><td class="pos">yes</td></tr><tr><td class="mono">HpusgazwBmv2EvPKYFnNhgFhirRkmGHFF3ZKQ6RWjVZg</td><td>SOL</td><td>128</td><td class="pos">+187.9%</td><td>2%</td><td>0.04</td><td>33</td><td class="pos">yes</td></tr><tr><td class="mono">CnVy2yLPzQYbohreZQEE1eucH8qSKX91akszFCoQDoR2</td><td>USDT</td><td>10</td><td class="pos">+128.5%</td><td>100%</td><td>—</td><td>4948</td><td class="pos">yes</td></tr><tr><td class="mono">4sBzVLE12SMDDFBpp8Crt8WPDzWKd3XH8xcaynKMcACR</td><td>USDC</td><td>25</td><td class="pos">+107.4%</td><td>40%</td><td>1.14</td><td>158</td><td class="pos">yes</td></tr><tr><td class="mono">5Qr9WL6esdfnwqjH9fKdph6deSVw3cvwHw7GEnNQBbuB</td><td>SOL</td><td>125</td><td class="pos">+98.7%</td><td>52%</td><td>3.01</td><td>2</td><td class="pos">yes</td></tr><tr><td class="mono">3ZfGsZtPW4z1VD9iD4tDrkocTGC2LjXMtZYHn3szTaf6</td><td>SOL</td><td>60</td><td class="pos">+88.0%</td><td>22%</td><td>0.22</td><td>2</td><td class="pos">yes</td></tr><tr><td class="mono">5WUjHiUVxmUuBnYZx3b5SyFiR7vW2N19VUhgCr2ZRZQ</td><td>SOL</td><td>19</td><td class="pos">+86.0%</td><td>16%</td><td>0.10</td><td>81</td><td class="pos">yes</td></tr><tr><td class="mono">5UvqH8HG2MCiyxyLtx7YQrN4f5UUPWfPeyyFdRno5JDi</td><td>SOL</td><td>23</td><td class="pos">+83.9%</td><td>22%</td><td>0.48</td><td>108</td><td class="pos">yes</td></tr><tr><td class="mono">EtLAs2wLgYxgV3uTXfh6YkizHwARQXCzDPGRTu3BaSCD</td><td>SOL</td><td>127</td><td class="pos">+82.4%</td><td>59%</td><td>1.61</td><td>2</td><td class="pos">yes</td></tr><tr><td class="mono">DEnL39QwJKK3jP1iujNBfDeUWzk9ZmnTPWPpRqSZesFA</td><td>SOL</td><td>78</td><td class="pos">+67.7%</td><td>74%</td><td>11.36</td><td>0</td><td class="pos">yes</td></tr><tr><td class="mono">E85hjviDEck3KaFatGACzEPWr3zaH3RRgtgwQRJFfvK8</td><td>SOL</td><td>81</td><td class="pos">+64.6%</td><td>73%</td><td>13.54</td><td>0</td><td class="pos">yes</td></tr><tr><td class="mono">6GndRTkhhtqk4gjzeJQaaHEvrUC4GVZXEhfLhj7zzqwo</td><td>SOL</td><td>17</td><td class="pos">+64.5%</td><td>29%</td><td>3.65</td><td>208</td><td class="pos">yes</td></tr><tr><td class="mono">9cxLzxjrTeodcbaEU3KCNGE1a4yFZEcdJ7uEXN378S4U</td><td>SOL</td><td>70</td><td class="pos">+62.6%</td><td>71%</td><td>7.40</td><td>0</td><td class="pos">yes</td></tr><tr><td class="mono">6uyhdkFbUjE8pPcRvzyhM6esVp4WxXkhetdrWPmoXx6E</td><td>SOL</td><td>80</td><td class="pos">+61.2%</td><td>72%</td><td>11.36</td><td>0</td><td class="pos">yes</td></tr><tr><td class="mono">DBjQE4kwrVsX9p7DcGNmMuJ6tHuV3e92pC4kUh8jUkz</td><td>SOL</td><td>109</td><td class="pos">+61.2%</td><td>81%</td><td>4.59</td><td>12</td><td class="pos">yes</td></tr><tr><td class="mono">2kdympsifycTdQd8DLh2ZQEoEJeNGfuyCt17JdFWzBgy</td><td>SOL</td><td>47</td><td class="pos">+61.1%</td><td>36%</td><td>0.45</td><td>173</td><td class="pos">yes</td></tr><tr><td class="mono">J6BAMXScvJAN6M3cKStvBKqt6628KJfA7Wz8LC8u9kXN</td><td>USDC</td><td>10</td><td class="pos">+60.1%</td><td>70%</td><td>0.29</td><td>625</td><td class="neg">no</td></tr><tr><td class="mono">DrkWK9ew2NneZMLvX8vfVsYRunk9hb6SHcKr11RJphEB</td><td>SOL</td><td>18</td><td class="pos">+58.6%</td><td>56%</td><td>4.89</td><td>551</td><td class="pos">yes</td></tr><tr><td class="mono">E3T8kXRWsSTLvZC5vQrV3QfrN1jQXe9tFZnamhQrs6yw</td><td>SOL</td><td>95</td><td class="pos">+58.5%</td><td>22%</td><td>1.31</td><td>3</td><td class="pos">yes</td></tr><tr><td class="mono">2tQcqjcSnvYQFCnW1fefFzpDxxdfa9KatCTTxCmP2vBH</td><td>SOL</td><td>17</td><td class="pos">+55.9%</td><td>24%</td><td>0.00</td><td>3</td><td class="pos">yes</td></tr><tr><td class="mono">3ErbZDeWNZUBmAnnTBNV8djakMSFkLZM9AmDX3eQduFZ</td><td>USDC</td><td>39</td><td class="pos">+53.9%</td><td>97%</td><td>19.04</td><td>89</td><td class="pos">yes</td></tr>
+    </table>
+    
+
+  <p class="muted">This describes what already happened, not what happens next. "Was this wallet profitable" and "would copying it have been profitable" are separate questions - copying it means trading after it already moved the price, which on thin tokens is a materially different result.  Ranked wallets were found by sampling recent activity, so anyone who blew up and stopped trading is invisible here - the real population is worse than this list, never better. A thin sample size can still land near the top by luck; that is exactly what the closed-position column is for, not the rank position.</p>
+
+  <footer>
+    Generated 2026-09-09 &middot; 25 wallets ranked
+  </footer>
+</div>
+</body>
+</html>
